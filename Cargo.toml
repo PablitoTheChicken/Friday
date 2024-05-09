@@ -1,0 +1,17 @@
+[package]
+name = "Friday"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "main"
+path = "bin/main.rs"
+
+[[bench]]
+name = "main_bench"
+path = "benchmark/main_bench.rs"
+
+[dependencies]
+criterion = "0.5.1"
+ndarray = "0.15.6"
+rand = "0.8.5"
